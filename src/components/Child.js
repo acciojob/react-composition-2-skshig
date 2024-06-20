@@ -9,7 +9,7 @@ const Child = ({showProp,setShowProp }) => {
   return (
     <div>
         <p className="modal-p"></p>
-        <button className='modal-close' onClick={handleClsoe} style={{backgroundColor:"tomato"}}>Close Modal</button>
+        <button className='modal-close' onClick={handleClsoe}>Close Modal</button>
         <p>this is content of a modal</p>
     </div>
   )
