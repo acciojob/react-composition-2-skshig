@@ -8,8 +8,8 @@ const Child = ({showProp,setShowProp }) => {
     }
   return (
     <div>
-        <p className="modal-p"></p>
-        <button className='modal-close' onClick={handleClsoe}>Close Modal</button>
+        <p className="model-p"></p>
+        <button className='model-close' onClick={handleClsoe}>Close Modal</button>
         <p>this is content of a modal</p>
     </div>
   )

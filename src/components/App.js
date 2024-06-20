@@ -10,7 +10,7 @@ let [showProp, setShowProp] = useState(false);
     setShowProp(true);
   }
   return (
-    <div className="modal-ovarlay">
+    <div className="model-overlay">
         {/* Do not remove the main div */}
         <button onClick={handleShowButton}  style={{backgroundColor:"tomato"}}>Show Modal</button>
         {
